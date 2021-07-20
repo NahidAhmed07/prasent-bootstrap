@@ -1,4 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
 #home__banner{
     background-image: url("./assets/img/hero-bg.jpg");
     height:500px;
@@ -18,6 +22,12 @@
     margin-top: 100px;
     
 }
+#pricing, #team{
+    transform: skewY(3deg);
+}
+#pricing, #team .angle-box-text{
+    transform:skewY(-3deg); 
+}
 .angle-box-text{
     transform:skewY(3deg);
     padding-top: 100px;
@@ -30,7 +40,10 @@
 .float-card-icon:hover{
     color: #DC3545;
     transition:  color 0.4s ease-in-out;
+
 }
+
+
 #services{
     height: auto;
 }
@@ -76,5 +89,26 @@
     transform: scale(1.2);
 }
 .protfolio-img:hover .protfolio-img-overlay{
+    opacity: 1;
+}
+sub, sup{
+    font-size: 16px;
+}
+#team .card .icon i{
+    background: #DC3545;
+    font-size: 20px;
+    transition: background 0.3s ease-in-out;
+}
+#team .card .icon i:hover{
+    background: rgb(46, 46, 46);
+}
+#team .card .icon{
+    top: 180px;
+    left: 45px;
+    opacity: 0;
+    transition: top 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+#team .card:hover .icon{
+    top: 210px;
     opacity: 1;
 }
