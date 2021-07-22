@@ -21,12 +21,12 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <!-- navbar strat here  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <h3>Presento<span class="text-danger">.</span></h3>
+                    <h3 class="fw-bolder">Presento<span class="text-danger">.</span></h3>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -34,18 +34,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse justify-content-end navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav align-items-center">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Services</a>
-                        <a class="nav-link" href="#">Portflio</a>
-                        <a class="nav-link" href="#">Team</a>
+                    <div class="navbar-nav fw-bold align-items-center">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about-site">About</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#protfolio">Portflio</a>
+                        <a class="nav-link" href="#team">Team</a>
                         <a class="nav-link" href="#">Blog</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                Drop Down
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -53,7 +53,7 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                         <a class="nav-link" href="#">
                             <button class="btn btn-danger">Get Started</button>
                         </a>
@@ -64,7 +64,7 @@
         </nav>
 
         <!-- home-banner  -->
-        <section id="home__banner">
+        <section id="home__banner" class="">
             <div class="container">
                 <div class="col-lg-5 home-text animate__animated animate__bounceInLeft text-white pt-5">
                     <h1 class="fw-bold display-4">Bettter digital experience with presento</h1>
@@ -130,7 +130,7 @@
         <!-- our secsucess  -->
         <section class="container my-5 py-5">
             <div class="row">
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
                     <i
                         class="py-3 px-3 rounded-circle d shadow-lg success-icon text-danger mb-3 far fa-2x   fa-smile"></i>
                     <div class=" py-3 px-5 shadow-lg text-center">
@@ -138,7 +138,7 @@
                         <p>Happy Clients</p>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
                     <i
                         class="py-3 px-3 rounded-circle d shadow-lg success-icon text-danger mb-3 far fa-2x   fa-smile"></i>
                     <div class=" py-3 px-5 shadow-lg text-center">
@@ -146,7 +146,7 @@
                         <p>Happy Clients</p>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
                     <i
                         class="py-3 px-3 rounded-circle d shadow-lg success-icon text-danger mb-3 far fa-2x   fa-smile"></i>
                     <div class=" py-3 px-5 shadow-lg text-center">
@@ -154,7 +154,7 @@
                         <p>Happy Clients</p>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
                     <i
                         class="py-3 px-3 rounded-circle d shadow-lg success-icon text-danger mb-3 far fa-2x   fa-smile"></i>
                     <div class=" py-3 px-5 shadow-lg text-center">
@@ -167,27 +167,27 @@
         <!-- float card  -->
         <section class="container mt-5">
             <div class="row g-4">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="d-flex p-4 rounded justify-content-center align-items-center bg-danger">
                         <i class="fas fa-2x me-3 text-white me- fa-network-wired"></i>
                         <p class="lead fw-bold lh-sm text-white">Modi sit est dela pireda nest</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div
                         class="d-flex p-4 rounded  border shadow-lg justify-content-center align-items-center float-card-icon">
                         <i class="fas fa-2x me-3  fa-check-square"></i>
                         <p class="lead fw-bold lh-sm">Unde praesenti mara setra le</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div
                         class="d-flex p-4 rounded  border shadow-lg  justify-content-center align-items-center float-card-icon">
                         <i class="far fa-2x me-3 fa-address-card"></i>
                         <p class="lead fw-bold lh-sm">Modi sit est dela pireda nest</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div
                         class="d-flex p-4 rounded  border shadow-lg justify-content-center align-items-center float-card-icon">
                         <i class="fas fa-2x me-3  fa-briefcase"></i>
@@ -817,7 +817,7 @@
         </section>
 
         <!-- contact section  -->
-        <section id="contact" class="container">
+        <section id="contact" class="container py-5">
             <div class="underline-text-div">
                 <h2 class="underline-text  mx-auto text-center fw-bold">CONTACT</h2>
             </div>
@@ -829,7 +829,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="row g-4">
                         <div class="col-12 text-center">
-                            <div class="shadow-lg">
+                            <div class="shadow-sm p-3">
                                 <i class="fas fa-2x text-danger fa-map-marker-alt"></i>
                                 <h5 class="text-muted my-3">Our Address<h5>
                                         <p class="text-muted fs-6">A108 Adam Street, New York, NY 535022</p>
@@ -837,7 +837,7 @@
 
                         </div>
                         <div class="col-6">
-                            <div class="text-center shadow-lg text-muted">
+                            <div class="text-center shadow-sm p-3 text-muted">
                                 <i class="fa fa-2x text-danger fa-envelope" aria-hidden="true"></i>
                                 <h5 class="my-2">Email Us</h5>
                                 <p class="my-1">info@example.com</p>
@@ -846,7 +846,7 @@
 
                         </div>
                         <div class="col-6">
-                            <div class="text-center shadow-lg text-muted">
+                            <div class="text-center shadow-sm text-muted p-3">
                                 <i class="fas fa-2x text-danger fa-phone-volume"></i>
                                 <h5 class="my-2">Call Us</h5>
                                 <p class="my-1">+1 5589 55488 55
@@ -857,12 +857,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 shadow-sm">
                     <form action="">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Your Name"
-                                    aria-label="First name">
+                                <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
                             </div>
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="Your Email" aria-label="Last name">
@@ -870,16 +869,75 @@
                         </div>
                         <input type="text" class="form-control my-4" placeholder="Subject" aria-label="Last name">
                         <textarea class="form-control" placeholder="Comment text." rows="4">Message </textarea>
-                        <div class="text-center"><a  class="btn btn-danger  mt-3 ">Send message</a></div>
+                        <div class="text-center"><a class="btn btn-danger  mt-4 ">Send message</a></div>
                     </form>
                 </div>
             </div>
 
         </section>
+        <!-- about our site  -->
+        <section class="py-5 bg-dark text-white" id="about-site">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-12 col-lg-3">
+                        <h3>Presento<span class="text-danger">.</span></h3>
+                        <p class="my-1">A108 adam street</p>
+                        <p class="my-1">New York, NY 5350022</p>
+                        <p class="my-1">United States</p>
+                        <p class="mb-1 mt-4"><strong>Phone:</strong> +1 5589 55488 55</p>
+                        <p class="my-1"><strong>Email:</strong> info@example.com</p>
+                    </div>
 
+                    <div class="col-6 col-md-3 col-lg-2 text-decoration-none">
+                        <h6 class="underline-text position-relative fw-bold">Useful Links </h6>
+                        <a href="">&gt; Home</a>
+                        <a href=""> &gt; About us</a>
+                        <a href="">&gt; Services</a>
+                        <a href="">&gt; Terms of service</a>
+                        <a href="">&gt; Privacy policy</a>
+                    </div>
 
+                    <div class="col-6 col-md-3 col-lg-2 ">
+                        <h6 class="underline-text position-relative fw-bold">Our Services </h6>
+                        <a href="">&gt; Home</a>
+                        <a href=""> &gt; About us</a>
+                        <a href="">&gt; Services</a>
+                        <a href="">&gt; Terms of service</a>
+                        <a href="">&gt; Privacy policy</a>
+                    </div>
+                    <div class="col-12 col-lg-5 mt-md-5">
+                        <h6 class="underline-text position-relative mb-4 fw-bold">Join Our Newstetter</h6>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <div class="input-group mt-4 mb-3">
+                            <input type="text" class="form-control">
+                            <a class="input-group-text btn btn-danger px-2 btn-sm"
+                                id="basic-addon2"><strong>Subscribe</strong></a>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+
+    <!-- fotter section  -->
+    <footer class="py-5 text-white">
+        <div class="container d-flex justify-content-between row g-4">
+            <div class="col-12 col-md-6">
+                <p class="m-0">&copy; Copyright <strong>Presento.</strong>All Rright Reversed</p>
+                <p class="m-0"> Designed by <span class="text-danger fst-italic"> Nahid Ahmed</span></p>
+            </div>
+            <div class="me-md-4 col-12 col-md-6">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-skype" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+        <a href="#header" class="btn btn-danger"><i class="fas fa-arrow-up"></i></a>
+    </footer>
 
 
 

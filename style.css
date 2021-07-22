@@ -64,6 +64,13 @@ body{
     left: 50px;
     transition:width 0.4s ease-in-out;
 }
+#about-site .underline-text::after{
+    top: 28px;
+    left: 0;
+    width: 30px;
+    border-width: 3px;
+}
+
 #testimonial .underline-text::after{
     left: 80px;
 }
@@ -111,4 +118,34 @@ sub, sup{
 #team .card:hover .icon{
     top: 210px;
     opacity: 1;
+}
+
+#about-site a{
+    text-decoration: none;
+    display: block;
+    line-height: 2.5;
+    color: rgb(206, 206, 206);
+}
+
+footer{
+    background: #000;
+}
+footer i:not(a i){
+    padding: 10px;
+    margin: 0 3px;
+    color: #fff;
+    background: #535353;
+    border-radius: 3px;
+    transition: background 0.2s ease-in-out;
+    cursor: pointer;
+}
+footer i:hover{
+    background: #DC3545;
+}
+
+footer a{
+    position:fixed;
+   right: 10px;
+    bottom:58px;
+
 }
